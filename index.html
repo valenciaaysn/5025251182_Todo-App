@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Study Planner</h1>
+        <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2>My Tasks</h2>
+
+            <div class="task">
+                <input type="checkbox">
+
+                <div>
+                    <h3>Tugas Teori Graf</h3>
+                    <p>Tugas Mingguan 1 dan 2</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <input type="checkbox">
+
+                <div>
+                    <h3>Tugas KPPL</h3>
+                    <p>Resume IBM</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <input type="checkbox">
+
+                <div>
+                    <h3>Schematics</h3>
+                    <p>Crosscheck kontak sekolah</p>
+                </div>
+            </div>
+
+            <div class="task">
+                <input type="checkbox">
+
+                <div>
+                    <h3>Tugas Matematika Diskrit</h3>
+                    <p>Predicate and Quantifier</p>
+                </div>
+            </div>
+
+        </section>
+
+        <aside class="task-detail">
+            <h2>Task Detail</h2>
+
+            <label>Task Name</label>
+            <input type="text" value="Tugas Teori Graf">
+
+            <label>Description</label>
+            <textarea rows="5">Tugas Mingguan 1 dan 2</textarea>
+
+            <label>Deadline</label>
+            <input type="date">
+
+            <button>Save Task</button>
+        </aside>
+    </main>
+
+    <section class="new-task">
+        <h2>Create New Task</h2>
+        <form>
+            <label>Task Name</label>
+            <input type="text" placeholder="Enter your task">
+
+            <label>Description</label>
+            <textarea rows="4" placeholder="Enter task description"></textarea>
+
+            <label>Deadline</label>
+            <input type="date">
+
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 Study Planner</p>
+    </footer>
+
+</body>
+</html>
