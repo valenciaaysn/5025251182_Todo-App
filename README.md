@@ -1,5 +1,6 @@
-Nama  : Yesenia Valencia Wibowo|
-NRP   : 5025251182
+\
+Nama    : Yesenia Valencia Wibowo\
+NRP        : 5025251182
 
 Deskripsi : Web HTML Todo List as Study Planner bagi Mahasiswa dengan beberapa detail fitur didalamnya (Checkbox My Tasks, Task Detail, Create New Task)
 
